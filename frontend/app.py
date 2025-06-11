@@ -5,7 +5,7 @@ import os
 # Get Model Runner URL from environment variable
 MODEL_RUNNER_URL = os.getenv("MODEL_RUNNER_URL", "http://localhost:80")
 
-st.title("CNCF Event - Docker Workshop on LLM Chat Interface with Docker Model Runner")
+st.title("Docker Workshop on LLM Chat Interface with Docker Model Runner")
 
 # Initialize chat history
 if "messages" not in st.session_state:
